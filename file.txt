@@ -1,0 +1,21 @@
+
+PT.WECO BINA UTAMA
+
+Jl.Roa Malaka II No.10-JAKARTA BARAT
+
+Telp. 021-6901655
+
+Fax. 021-6929219
+
+
+
+                                     FAKTUR PENJUALAN                                     
+
+ID Transaksi      : 234280
+
+Tanggal Transaksi : 2015-02-25 13:08:05
+
+Pelanggan         : PT. SANYO
+
+
+No   No. Item    Nama Brg              Qty        Satuan   Disc.     Harga      Total

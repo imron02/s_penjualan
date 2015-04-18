@@ -1,0 +1,4 @@
+invoice: pelanggan, supplier
+surat jalan: id_transaksi, id_pelanggan, id_supplier
+transaksi: id_pelanggan, id_supplier
+transaksi_rinci: kode_barang, id_transaksi

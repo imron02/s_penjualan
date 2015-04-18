@@ -1,0 +1,250 @@
+.kanan{
+	text-align:right;
+}
+.kiri{
+	text-align:left;
+}
+body{
+	padding:0;
+	margin:0;
+	font-family:'Arial';
+	font-size:14px;
+	color:#333333;
+	background-color:#d5d5d5;
+}
+a{
+	text-decoration:none;
+}
+hr{
+	background-color:#0cf;
+	border:0;
+	height:1px;
+}
+fieldset{
+	border:1px solid #0cf;
+}
+.konten,
+.konten-utama,
+.isi-konten,
+.judul,
+.navigasi,
+.navigasi li,
+.navigasi li a,
+.formulir-umum,
+.error{
+	display:block;
+}
+
+.kiri{
+	float:left !important;
+}
+.kanan{
+	float:right !important;
+}
+.konten{
+	width:80%;
+	min-height:300px;
+	background-color:#ffffff;
+}
+.konten-utama{
+	width:98%;
+	padding:1%;
+}
+.isi-konten{
+	width:100%;
+}
+.judul{
+	background-color:#0cf;
+	color:#ffffff;
+	padding:15px;
+	text-align:center;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.sub-judul{
+	text-align:center;
+	width:100%;
+	border-bottom:1px solid #dddddd;
+	height:50px;
+}
+.navigasi{
+	padding:0;
+	margin:0;
+	width:20%;
+	min-height:100%;
+	background-color:#d5d5d5;
+	list-style:none;
+}
+
+.navigasi li a{
+	text-indent:10px;
+	padding:5px 0;
+	color:#666666;
+}
+.navigasi li a.logo{
+	padding-top:20px;
+	padding-bottom:20px;
+	line-height:45px;
+	font-weight:bold;
+	color:#666666;
+	text-align:center;
+}
+.navigasi li:hover{
+	background-color:#0cf;
+	color:#FFFFFF;
+}
+.navigasi li a:hover,
+.navigasi li a.aktif
+{
+	background-color:#0cf;
+	color:#FFFFFF;
+	text-shadow:-1px 1px 1px #333;
+}
+.navigasi > li > ul{
+	display:none;
+	position:absolute;
+	left:20%;
+	background-color: #d5d5d5;
+	width:20%;
+	padding:0;
+	margin:-26px 0;
+} 
+.navigasi > li:hover > ul{
+	display:block;
+}
+
+table{
+	border-left:1px solid #dddddd;
+	border-top:2px solid #dddddd;
+	border-bottom:2px solid #dddddd;
+	border-spacing:0;
+	width:100%;
+}
+table thead tr th,
+table tfoot tr th,
+table tbody tr td{
+	border-right:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+	border-spacing:0;
+	padding:2px 5px;
+	vertical-align: top;
+}
+table thead tr th,
+table tfoot tr th,
+.navigasi li a{
+	text-transform:uppercase;
+	font-weight:100;
+}
+
+.tombol{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	color: #ffffff;
+	background-color: #333333;
+	border-color: #000000;
+}
+
+.tombol:active{
+	background-color: #000000;
+	border-color: #333333;
+}
+
+.formulir-umum{
+	width: 100%;
+}
+
+.formulir-umum,
+.formulir-umum label,
+.formulir-umum textarea,
+.formulir-umum select,
+.formulir-umum input{
+	min-height:20px;
+	line-height:20px;
+	font-size:14px;
+}
+.formulir-umum label{
+	width:100%;
+}
+
+.formulir-umum input,
+.formulir-umum textarea,
+.formulir-umum select,
+.formulir-umum label{
+	padding:2px 4px;
+	float:left;
+	vertical-align:middle;
+	min-width:30%;
+	background-color: transparent;
+}
+.formulir-umum input,
+.formulir-umum textarea,
+.formulir-umum select{
+	border:1px solid #0cf;
+	margin-bottom:10px;
+}
+.formulir-umum input.nomor{
+	text-align:right;
+}
+.formulir-umum hr{
+	clear: both;
+}
+
+.error{
+	width:98%;
+	padding:1%;
+	margin:auto;
+	line-height:40px;
+	font-weight:100;
+	background-color: #ccc;
+	margin-bottom:10px;
+}
+textarea{
+	max-width:60%;
+	display:block;
+}
+.print{
+	display:none;
+}
+h1 input {
+	display:inline;
+	float:right;
+	line-height:40px !important;
+	font-size:30px !important;
+	font-weight:bold;
+	margin-top:-10px;
+	width:130px;
+	text-align:right;
+	color:#333333;
+	outline:none;
+}
+@media print{
+	.navigasi,
+	.display{
+		display:none;
+	}
+	.konten{
+		width:100%;
+	}
+	.print{
+		display:block;
+	}
+	input,select,option,textarea{
+		border:0 !important;
+	}
+}
